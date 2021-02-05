@@ -1,0 +1,4 @@
+CREATE TABLE sandwich (
+    id   BIGSERIAL      NOT NULL PRIMARY KEY,
+    name VARCHAR(250) NOT NULL
+);
