@@ -1,0 +1,12 @@
+2021-02-05 14:10:22 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SANDWICH" not found; SQL statement:
+select * from sandwich [42102-200]
+2021-02-05 14:10:40 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SANDWICH" not found; SQL statement:
+insert into sandwich (id, name) values (null, ?) [42102-200]
+2021-02-05 14:12:39 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SANDWICH" not found; SQL statement:
+SELECT * FROM sandwich [42102-200]
+2021-02-05 14:13:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SANDWICH" not found; SQL statement:
+insert into sandwich (id, name) values (null, ?) [42102-200]
